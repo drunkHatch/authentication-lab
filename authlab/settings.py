@@ -28,12 +28,6 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
-INSTALLED_APPS = [
-    # ...
-    'rest_framework',
-    'rest_framework.authtoken'
-]
 
 # ...
 # Django Rest Framework
@@ -56,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'client.apps.ClientConfig',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [
